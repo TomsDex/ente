@@ -87,10 +87,7 @@ class WidgetSettingsScreen extends StatelessWidget {
                               ),
                               leadingIconWidget: SvgPicture.asset(
                                 "assets/icons/people-widget-icon.svg",
-                                colorFilter: ColorFilter.mode(
-                                  colorScheme.textBase,
-                                  BlendMode.srcIn,
-                                ),
+                                color: colorScheme.textBase,
                               ),
                               menuItemColor: colorScheme.fillFaint,
                               singleBorderRadius: 8,
@@ -104,10 +101,7 @@ class WidgetSettingsScreen extends StatelessWidget {
                               ),
                               leadingIconWidget: SvgPicture.asset(
                                 "assets/icons/albums-widget-icon.svg",
-                                colorFilter: ColorFilter.mode(
-                                  colorScheme.textBase,
-                                  BlendMode.srcIn,
-                                ),
+                                color: colorScheme.textBase,
                               ),
                               menuItemColor: colorScheme.fillFaint,
                               singleBorderRadius: 8,
@@ -121,10 +115,7 @@ class WidgetSettingsScreen extends StatelessWidget {
                               ),
                               leadingIconWidget: SvgPicture.asset(
                                 "assets/icons/memories-widget-icon.svg",
-                                colorFilter: ColorFilter.mode(
-                                  colorScheme.textBase,
-                                  BlendMode.srcIn,
-                                ),
+                                color: colorScheme.textBase,
                               ),
                               menuItemColor: colorScheme.fillFaint,
                               singleBorderRadius: 8,

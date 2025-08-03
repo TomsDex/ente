@@ -156,10 +156,7 @@ class _MemoriesWidgetSettingsState extends State<MemoriesWidgetSettings> {
                           ),
                           leadingIconWidget: SvgPicture.asset(
                             "assets/icons/past-year-memory-icon.svg",
-                            colorFilter: ColorFilter.mode(
-                              colorScheme.textBase,
-                              BlendMode.srcIn,
-                            ),
+                            color: colorScheme.textBase,
                           ),
                           menuItemColor: colorScheme.fillFaint,
                           trailingWidget: ToggleSwitchWidget(
@@ -182,10 +179,7 @@ class _MemoriesWidgetSettingsState extends State<MemoriesWidgetSettings> {
                           ),
                           leadingIconWidget: SvgPicture.asset(
                             "assets/icons/memories-widget-icon.svg",
-                            colorFilter: ColorFilter.mode(
-                              colorScheme.textBase,
-                              BlendMode.srcIn,
-                            ),
+                            color: colorScheme.textBase,
                           ),
                           menuItemColor: colorScheme.fillFaint,
                           trailingWidget: ToggleSwitchWidget(
@@ -209,10 +203,7 @@ class _MemoriesWidgetSettingsState extends State<MemoriesWidgetSettings> {
                             ),
                             leadingIconWidget: SvgPicture.asset(
                               "assets/icons/smart-memory-icon.svg",
-                              colorFilter: ColorFilter.mode(
-                                colorScheme.textBase,
-                                BlendMode.srcIn,
-                              ),
+                              color: colorScheme.textBase,
                             ),
                             menuItemColor: colorScheme.fillFaint,
                             trailingWidget: ToggleSwitchWidget(
