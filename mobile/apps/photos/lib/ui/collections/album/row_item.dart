@@ -120,7 +120,7 @@ class AlbumRowItemWidget extends StatelessWidget {
                                 child: isSelected
                                     ? ColorFiltered(
                                         colorFilter: ColorFilter.mode(
-                                          Colors.black.withValues(alpha: 
+                                          Colors.black.withOpacity(
                                             0.4,
                                           ),
                                           BlendMode.darken,
